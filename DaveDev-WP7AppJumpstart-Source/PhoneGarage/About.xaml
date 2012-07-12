@@ -1,0 +1,33 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	x:Class="PhoneGarage.About"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	Orientation="Portrait" SupportedOrientations="PortraitOrLandscape">
+
+	<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="ApplicationTitle" Text="WP7FATC" Style="{StaticResource PhoneTextNormalStyle}"/>
+		</StackPanel>
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"/>
+		<Image Margin="-110,0,-60,359" Grid.Row="1" Source="LoveWP7Small.PNG" Stretch="Fill"/>
+		<Button x:Name="btnContactUs" Content="Contact Us" Margin="108,0,129,238" Grid.Row="1" VerticalAlignment="Bottom" Height="121" Click="btnContactUs_Click" />
+		<Button Content="Review App" Margin="108,0,129,87" Grid.Row="1" VerticalAlignment="Bottom" Height="125" Click="Button_Click" />
+	</Grid>
+</phone:PhoneApplicationPage>

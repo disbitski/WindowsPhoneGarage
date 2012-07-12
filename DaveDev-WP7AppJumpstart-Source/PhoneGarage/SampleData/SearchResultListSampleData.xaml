@@ -1,0 +1,12 @@
+﻿<PhoneGarage:SearchResultList xmlns:PhoneGarage="clr-namespace:PhoneGarage">
+	<PhoneGarage:SearchResult Description="Class curae donec aliquam curabitur" Title="Class" URL="http://www.adatum.com/"/>
+	<PhoneGarage:SearchResult Description="Integer vestibulum" Title="Curae" URL="http://www.adventure-works.com/"/>
+	<PhoneGarage:SearchResult Description="Fusce dis bibendum" Title="Donec" URL="http://www.adventure-works.com/"/>
+	<PhoneGarage:SearchResult Description="Vestibulum dignissim" Title="Etiam" URL="http://www.alpineskihouse.com/"/>
+	<PhoneGarage:SearchResult Description="Auctor duis nunc" Title="Fusce" URL="http://www.baldwinmuseumofscience.com/"/>
+	<PhoneGarage:SearchResult Description="Inceptos vestibulum" Title="Nam" URL="http://www.blueyonderairlines.com/"/>
+	<PhoneGarage:SearchResult Description="Dolor fames non" Title="Aenean" URL="http://www.cpandl.com/"/>
+	<PhoneGarage:SearchResult Description="Dictum interdum arcu" Title="Maecenas" URL="http://www.cohovineyard.com/"/>
+	<PhoneGarage:SearchResult Description="Ipsum lobortis dapibus libero" Title="Cras" URL="http://www.cohowinery.com/"/>
+	<PhoneGarage:SearchResult Description="Ligula vestibulum nascetur" Title="Sed" URL="http://www.contoso.com/"/>
+</PhoneGarage:SearchResultList>
